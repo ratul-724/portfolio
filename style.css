@@ -31,6 +31,14 @@ body{
     font-weight:600;
     padding-left: 8%;
 }
+.intro-pic{
+    margin-left: 200px;
+    cursor: pointer;
+}
+.intro-pic:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 .navbar{
     margin-right:7% ;
     position: absolute;
@@ -121,27 +129,11 @@ body{
 }
 .btn1 :hover{
     color:aqua;
-    background-color: #091B2A;
+    background-color: #09090a;
     transition: .8s;
     border: 1px solid white;
     width: 130px;
     border-radius: 6px;
-}
-.btn2{
-    margin-left: 197px;
-    margin-top: -40px;
-    border: 1px solid white;
-    width: 130px;
-    border-radius: 7px;
-}
-.btn2 a {
-    color:aqua;
-}
-.btn2 :hover{
-    color:#091B2A;
-    background-color: aqua;
-    transition: .8s;
-    border: none;
 }
 .social{
     align-items: last baseline;
@@ -245,11 +237,4 @@ body{
     transform: scale(1.07);
     transition: 1s;
     box-shadow: 5px 5px 40px rgb(62, 62, 62);
-}
-
-/*---------responsive------------*/
-@media only screen and(max-width: 600px){
-
-    
-
 }
