@@ -7,6 +7,11 @@
 body{
     background-color: #020c14;
     height: 2500px;
+    background-image: url("projectImg/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: opacity 10%;
+    background-attachment: fixed;
 }
 .header{
     position: fixed;
@@ -18,12 +23,7 @@ body{
     align-items: center;
     z-index: 100;
 }
-#gotohome{
-    background-image: url("projectImg/bg.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: opacity 10%;
-}
+
 .logo{
     font-size: 25px;
     color:whitesmoke;
