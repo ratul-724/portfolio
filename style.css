@@ -17,7 +17,7 @@ body{
     position: fixed;
     width: 100%;
     padding: 20px 30px;
-    background-color: #000407;
+    background-color: #1C1C1C;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ body{
     position: absolute;
     right:6%;
     border-radius: 30px;
-    background-color:  #000407;
+    background-color: #1C1C1C;
     border: 1px solid rgb(255, 255, 255);
 }
 .cv:hover{
@@ -129,7 +129,7 @@ body{
 }
 .btn1 :hover{
     color:aqua;
-    background-color: #09090a;
+    background-color:#323232;
     transition: .8s;
     border: 1px solid white;
     width: 130px;
